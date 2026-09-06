@@ -1,0 +1,97 @@
+{
+  "Al": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 0.241,
+    "neutrons_per_fission": 0.0
+  },
+  "B-10": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 3410.0,
+    "neutrons_per_fission": 0.0
+  },
+  "Be": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 0.01,
+    "neutrons_per_fission": 0.0
+  },
+  "Boron (natural)": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 759.0,
+    "neutrons_per_fission": 0.0
+  },
+  "C": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 0.004,
+    "neutrons_per_fission": 0.0
+  },
+  "D": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 0.00046,
+    "neutrons_per_fission": 0.0
+  },
+  "Fe": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 2.62,
+    "neutrons_per_fission": 0.0
+  },
+  "Gd": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 49000.0,
+    "neutrons_per_fission": 0.0
+  },
+  "H": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 0.33,
+    "neutrons_per_fission": 0.0
+  },
+  "Hf": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 102.0,
+    "neutrons_per_fission": 0.0
+  },
+  "Mg": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 0.069,
+    "neutrons_per_fission": 0.0
+  },
+  "O": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 0.0002,
+    "neutrons_per_fission": 0.0
+  },
+  "Pu-239": {
+    "fission_cross_section_barns": 749.0,
+    "absorption_cross_section_barns": 1029.0,
+    "neutrons_per_fission": 2.9
+  },
+  "S": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 0.52,
+    "neutrons_per_fission": 0.0
+  },
+  "Na": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 0.525,
+    "neutrons_per_fission": 0.0
+  },
+  "U-233": {
+    "fission_cross_section_barns": 529.0,
+    "absorption_cross_section_barns": 581.0,
+    "neutrons_per_fission": 2.5
+  },
+  "U-235": {
+    "fission_cross_section_barns": 587.0,
+    "absorption_cross_section_barns": 683.0,
+    "neutrons_per_fission": 2.43
+  },
+  "U-238": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 2.71,
+    "neutrons_per_fission": 0.0
+  },
+  "Zr": {
+    "fission_cross_section_barns": 0.0,
+    "absorption_cross_section_barns": 0.185,
+    "neutrons_per_fission": 0.0
+  }
+}
