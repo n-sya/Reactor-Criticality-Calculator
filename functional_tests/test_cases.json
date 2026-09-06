@@ -1,0 +1,73 @@
+{
+    "test_cases": [
+        {
+            "name": "subcritical_case",
+            "nuclear_data": {
+                "Synthetic Fuel": {
+                    "absorption_cross_section_barns": 2.0,
+                    "fission_cross_section_barns": 1.0,
+                    "neutrons_per_fission": 3.0
+                },
+                "Synthetic Absorber": {
+                    "absorption_cross_section_barns": 2.0,
+                    "fission_cross_section_barns": 0.0,
+                    "neutrons_per_fission": 0.0
+                }
+            },
+            "number_densities": {
+                "Synthetic Fuel": 1e20,
+                "Synthetic Absorber": 1e20
+            },
+            "expected": {
+                "multiplication_factor": 0.75,
+                "total_absorption": 4e-8,
+                "total_neutron_production": 3e-8,
+                "classification": "Subcritical"
+            }
+        },
+        {
+            "name": "critical_case",
+            "nuclear_data": {
+                "Synthetic Fuel": {
+                    "absorption_cross_section_barns": 2.0,
+                    "fission_cross_section_barns": 1.0,
+                    "neutrons_per_fission": 3.0
+                },
+                "Synthetic Absorber": {
+                    "absorption_cross_section_barns": 2.0,
+                    "fission_cross_section_barns": 0.0,
+                    "neutrons_per_fission": 0.0
+                }
+            },
+            "number_densities": {
+                "Synthetic Fuel": 1e20,
+                "Synthetic Absorber": 5e19
+            },
+            "expected": {
+                "multiplication_factor": 1.0,
+                "total_absorption": 3e-8,
+                "total_neutron_production": 3e-8,
+                "classification": "Critical"
+            }
+        },
+        {
+            "name": "supercritical_case",
+            "nuclear_data": {
+                "Synthetic Fuel": {
+                    "absorption_cross_section_barns": 2.0,
+                    "fission_cross_section_barns": 1.0,
+                    "neutrons_per_fission": 3.0
+                }
+            },
+            "number_densities": {
+                "Synthetic Fuel": 1e20
+            },
+            "expected": {
+                "multiplication_factor": 1.5,
+                "total_absorption": 2e-8,
+                "total_neutron_production": 3e-8,
+                "classification": "Supercritical"
+            }
+        }
+    ]
+}
